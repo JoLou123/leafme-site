@@ -1,0 +1,17 @@
+.spaced {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.links {
+  width: 150px;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 10px 100px;
+  background-color: lightgray;
+}

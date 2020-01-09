@@ -3,14 +3,15 @@ import { Link } from "gatsby"
 import Header from "../components/header"
 import Layout from "../components/layout"
 
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 export default () => (
   <Layout>
-    <div style={{ color: `purple` }}>
-      <Link to="/about/">About</Link>
-      <Link to="/news/">News</Link>
-      <Header headerText="Hello Gatsby!" />
-      <p>What a world.</p>
-      <img src="https://source.unsplash.com/random/400x200" alt="" />
-    </div>
+      <div style={{
+        height: 5000
+      }}>
+        hello world
+      </div>
   </Layout>
 )
