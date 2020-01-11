@@ -1,17 +1,17 @@
 import React from "react"
-import { Link } from "gatsby"
-import Header from "../components/header"
 import Layout from "../components/layout"
+import banner from "../assets/banner.png"
 
-import 'bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import indexStyles from "./index.module.css"
 
 export default () => (
   <Layout>
-      <div style={{
-        height: 5000
-      }}>
-        hello world
+    <div className={indexStyles.container}>
+      <img src={banner} style={{width: '100%'}}></img>
+      <div className={indexStyles.centered}>
+        <div className={indexStyles.leafMe}>LeafMe</div>
+        <div className={indexStyles.blurb}>The smart indoor planter for all your indoor planting needs.</div>
       </div>
+    </div>
   </Layout>
 )

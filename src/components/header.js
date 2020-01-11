@@ -6,9 +6,14 @@ import logo from "../assets/logo.png"
 export default () => (
   <nav className={headerStyles.navbar}>
     <div className={headerStyles.spaced}>
-      <Link to="/">
-        <img src={logo} width="50" height="50"></img>
-      </Link>
+      <div className={headerStyles.logoWrapper}>
+        <Link to="/">
+          <img src={logo} width="55" height="55"></img>
+        </Link>
+        <Link className={headerStyles.logo} to="/">
+          LeafMe
+        </Link>
+      </div>
       <div className={headerStyles.spaced}>
         <Link className={headerStyles.links} to="/features/">Features</Link>
         <Link className={headerStyles.links} to="/team/">Team</Link>
