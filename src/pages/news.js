@@ -7,6 +7,9 @@ import Layout from "../components/layout"
 export default () => (
   <Layout>
     <div style={{height: 100}}></div> {/*just for extra spacing*/}
+
+    <div className={newsStyles.titleText}>Latest News</div>
+
     <div className={newsStyles.timeline}>
       <NewsEntry 
         date="Jan 11, 2020"

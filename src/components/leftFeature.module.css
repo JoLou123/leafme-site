@@ -1,7 +1,7 @@
 .container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: start;
   padding: 25px 250px 100px; /*top, right/left, bottom*/
 }
 
@@ -25,6 +25,5 @@
 .textContainer {
   display: flex;
   flex-direction: column;
-  padding-top: 25px;
-  padding-right: 50px;
+  padding: 25px 80px 0px; /*top, right/left, bottom*/
 }

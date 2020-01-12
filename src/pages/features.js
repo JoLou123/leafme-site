@@ -1,21 +1,41 @@
 import React from "react"
 import Layout from "../components/layout"
 import RightFeature from "../components/rightFeature"
+import LeftFeature from "../components/leftFeature"
+
+import featureStyles from "./features.module.css"
 
 import featureImage from "../assets/box-placeholder.png"
 
 export default () => (
   <Layout>
+    <div style={{height: 100}}></div> {/*just for extra spacing*/}
+    <div className={featureStyles.titleText}>Features</div>
+
     <RightFeature 
-      title="Take care of your plants, wherever you are"
-      content="With the LeafMe app, monitor and water your plant whether you're at work, on vacation, or just don't want to get out of bed."
+      title="Live updates on your plant"
+      content="See the current status of your plant's environment."
       image={featureImage} 
     /> {/* pic of the app homepage*/}
 
-    <RightFeature 
-      title="Simple, portable and BYOP"
-      content="Bring your own plant! No need to buy special plant pods. Follow the set up instructions on the app and you're good to go!"
+    <LeftFeature 
+      title="Statistics over time"
+      content="Track status of your plant over time in beautiful, easy-to-read charts."
       image={featureImage} 
-    /> {/*pic or 3D model of the device*/}
+    /> {/*Metrics Screen*/}
+
+    <RightFeature 
+      title="Set it and forget it"
+      content="You'll never have to remember to water your plants ever again. Set up a schedule with the app and watch your plant prosper."
+      image={featureImage} 
+    /> {/*Scheduling screen*/}
+
+    <LeftFeature 
+      title="Don't know where to start? "
+      content="From leafy greens to chili peppers, we've got you covered. Choose from any of the given presets of plant settings and we'll take care of the rest."
+      image={featureImage} 
+    /> {/*Set up screen*/}
+
+    <div style={{height: 100}}></div> {/*just for extra spacing*/}
   </Layout>
 )

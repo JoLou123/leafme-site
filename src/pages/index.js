@@ -24,7 +24,7 @@ export default () => (
       title="Take care of your plants, wherever you are"
       content="With the LeafMe app, monitor and water your plant whether you're at work, on vacation, or just don't want to get out of bed."
       image={featureImage} 
-    /> {/* pic of the app homepage*/}
+    /> {/*gif of the app or pic of the splash screen*/}
 
     <RightFeature 
       title="Simple, portable and BYOP"
