@@ -10,7 +10,7 @@ export default (props) => (
     </div>
   <div className={`${entryStyles.content} ${entryStyles.right}`}>
     <div className={entryStyles.titleText}>{props.title}</div>
-    <p>{props.content}</p>
+    <div className={entryStyles.contentText}>{props.content}</div>
   </div>
 </div>
 )

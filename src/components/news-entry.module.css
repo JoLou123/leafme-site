@@ -51,12 +51,17 @@
 }
 
 .dateText {
-  font-size: 20px;
+  font-size: 30px;
   color: #202833;
 }
 
 .titleText {
-  font-size: 30px;
+  font-size: 40px;
   color: #202833;
   font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.contentText {
+  font-size: 18px;
 }

@@ -13,19 +13,19 @@
 
 .leafMe {
   font-weight: bolder;
-  font-size: 100px;
+  font-size: 110px;
 }
 
 .blurb {
   font-weight: 500;
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .learnMore {
   display: flex;
   justify-content: center;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 45px;
   color: #202833;
   text-decoration: none;
   transition: 0.3s;

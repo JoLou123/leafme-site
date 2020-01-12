@@ -7,16 +7,17 @@
 
 .featureImage {
   width: 20%;
-  height: 250px;
+  height: 300px;
 }
 
 .contentText {
   color: #6e7a8a;
+  font-size: 18px;
 }
 
 .titleText {
   font-weight: bold;
-  font-size: 35px;
+  font-size: 45px;
   color: #202833;
   padding-bottom: 15px;
 }
