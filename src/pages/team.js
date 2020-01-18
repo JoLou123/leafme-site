@@ -3,16 +3,16 @@ import Layout from "../components/layout"
 
 import teamStyles from "./team.module.css"
 
-import featureImage from "../assets/box-placeholder.png"
+import teamPhoto from "../assets/group_photo_cropped.jpg"
 
 export default () => (
   <Layout>
-    <div style={{height: 120}}></div> {/*just for extra spacing*/}
+    <div style={{height: 50}}></div> {/*just for extra spacing*/}
 
     <div className={teamStyles.container}>
       <div className={teamStyles.titleText}>Meet the Team!</div>
-      <img src={featureImage} width='600' height='400'></img>
-      <div className={teamStyles.captionText}>Caption</div>
+      <img src={teamPhoto} width='900'></img>
+      <div className={teamStyles.captionText}>Left to right: Joanna Lou, Yiyang Shi, Ji Qi, Hyunmok Jeong</div>
     </div>
 
     <div style={{height: 120}}></div> {/*just for extra spacing*/}

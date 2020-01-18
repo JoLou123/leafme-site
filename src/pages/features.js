@@ -5,6 +5,9 @@ import LeftFeature from "../components/leftFeature"
 
 import featureStyles from "./features.module.css"
 
+import metricsScreen from "../assets/metrics_mock.png"
+import overviewScreen from "../assets/overview_mock.png"
+import scheduleScreen from "../assets/schedule_mock.png"
 import featureImage from "../assets/box-placeholder.png"
 
 export default () => (
@@ -15,19 +18,19 @@ export default () => (
     <RightFeature 
       title="Live updates on your plant"
       content="See the current status of your plant's environment."
-      image={featureImage} 
+      image={overviewScreen} 
     /> {/* pic of the app homepage*/}
 
     <LeftFeature 
       title="Statistics over time"
       content="Track status of your plant over time in beautiful, easy-to-read charts."
-      image={featureImage} 
+      image={metricsScreen} 
     /> {/*Metrics Screen*/}
 
     <RightFeature 
       title="Set it and forget it"
       content="You'll never have to remember to water your plants ever again. Set up a schedule with the app and watch your plant prosper."
-      image={featureImage} 
+      image={scheduleScreen} 
     /> {/*Scheduling screen*/}
 
     <LeftFeature 

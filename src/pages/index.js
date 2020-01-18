@@ -5,6 +5,7 @@ import RightFeature from "../components/rightFeature"
 
 import banner from "../assets/banner.png"
 import featureImage from "../assets/box-placeholder.png"
+import splashScreen from "../assets/splash_mock.png"
 
 import indexStyles from "./index.module.css"
 
@@ -23,7 +24,7 @@ export default () => (
     <RightFeature 
       title="Take care of your plants, wherever you are"
       content="With the LeafMe app, monitor and water your plant whether you're at work, on vacation, or just don't want to get out of bed."
-      image={featureImage} 
+      image={splashScreen} 
     /> {/*gif of the app or pic of the splash screen*/}
 
     <RightFeature 
