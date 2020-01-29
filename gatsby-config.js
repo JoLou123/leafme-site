@@ -6,5 +6,16 @@
 
 module.exports = {
   /* Your site config here */
-  pathPrefix: "/leafme-site"
+  pathPrefix: "/leafme-site",
+  plugins: [
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: 'assets',
+        path: `${__dirname}/src/assets/`,
+      },
+    },
+  ],
 }
