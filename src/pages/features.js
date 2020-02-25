@@ -8,7 +8,7 @@ import featureStyles from "./features.module.css"
 import metricsScreen from "../assets/metrics_mock.png"
 import overviewScreen from "../assets/overview_mock.png"
 import scheduleScreen from "../assets/schedule_mock.png"
-import featureImage from "../assets/box-placeholder.png"
+import presetScreen from '../assets/preset_mock.png'
 
 export default () => (
   <Layout>
@@ -36,7 +36,7 @@ export default () => (
     <LeftFeature 
       title="Don't know where to start? "
       content="From leafy greens to chili peppers, we've got you covered. Choose from any of the given presets of plant settings and we'll take care of the rest."
-      image={featureImage} 
+      image={presetScreen} 
     /> {/*Set up screen*/}
 
     <div style={{height: 100}}></div> {/*just for extra spacing*/}

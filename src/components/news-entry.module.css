@@ -33,7 +33,16 @@
   padding-top: 10px;
 }
 
+.withImage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
+.newsImage{
+  width: 40%;
+  margin-left: 50px;
+}
 /* Fix the circle for containers on the right side */
 .right::after {
   left: -16px;
@@ -59,9 +68,10 @@
   font-size: 40px;
   color: #202833;
   font-weight: bold;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .contentText {
   font-size: 18px;
+  line-height: 1.6;
 }
