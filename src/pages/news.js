@@ -7,6 +7,7 @@ import Overview from '../assets/overview_news.png'
 import Light from '../assets/light_on_off.png'
 import Tank from '../assets/tank.png'
 import Preset from '../assets/preset_1.png'
+import March from '../assets/March_09.jpg'
 
 //TODO: Add images to news entries
 export default () => (
@@ -17,6 +18,22 @@ export default () => (
 
     <div className={newsStyles.timeline}>
       <NewsEntry 
+        date="Mar 9, 2019"
+        title="One Week left!"
+        content="Only 5 days left until the symposium! Though exhausted, we power on and begin end-to-end testing. We start by testing the main functionality of the app, 
+                watering and lighting. The light and water pump turn on as expected, and for the correct amounts of time. Now we are focusing on the mechanical aspects of
+                the project, putting the device together and installing the sensors in the right positions. We're also testing to make sure the sensor values are read 
+                correctly, and that the light shaft adjusts as expected."
+        image={March}
+      />
+      <NewsEntry 
+        date="Feb 29, 2019"
+        title="Pizza Night"
+        content="Bright and early on a Saturday, 4 tired engineering students made a trip to Home Depot. We purchased square aluminum rods, wing nuts, and various other
+                bits and pieces to construct our device. Then we headed to the machine shop to cut and assemble the metal parts, and attempt at wiring the electrical 
+                components together. To refuel after a long day, we ordered pizza."
+      />
+      <NewsEntry 
         date="Feb 22, 2019"
         title="Almost Ready to Test"
         content="With the API and mobile app nearly complete, the core functionality of this project can be tested. This includes using the watering and lighting schedules created
@@ -26,7 +43,7 @@ export default () => (
       <NewsEntry 
         date="Feb 15, 2019"
         title="Software Progress at 90%"
-        content="the API endpoints for lighting and watering events, and plant presets has been created. The logic that is needed to manage them have also been implemented. 
+        content="The API endpoints for lighting and watering events, and plant presets has been created. The logic that is needed to manage them have also been implemented. 
               With the core functionality of the API complete, the mobile app can also be completed. The user setup process for the device and plant settings are well under way, 
               where the user can now select a plant species from a preset list of plants and the watering and lighting schedules for that plant will be returned. 
               Sensors are working as expected now, so the data returned from the API is real data read from the sensors and the environment."
