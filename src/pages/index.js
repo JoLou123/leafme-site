@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import RightFeature from "../components/rightFeature"
 
 import banner from "../assets/banner.png"
-import featureImage from "../assets/box-placeholder.png"
+import device from "../assets/device.jpg"
 import splashScreen from "../assets/splash_mock.png"
 
 import indexStyles from "./index.module.css"
@@ -30,7 +30,7 @@ export default () => (
     <RightFeature 
       title="Simple, portable and BYOP"
       content="Bring your own plant! No need to buy special plant pods. Follow the set up instructions on the app and you're good to go!"
-      image={featureImage} 
+      image={device} 
     /> {/*pic or 3D model of the device*/}
 
     <Link className={indexStyles.learnMore} to="/features/">Learn More</Link>
