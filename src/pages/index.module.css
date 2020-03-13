@@ -11,6 +11,17 @@
   transform: translate(-50%, -75%);
 }
 
+.video {
+  text-align: center;
+}
+
+.titleText {
+  font-weight: bold;
+  font-size: 40px;
+  color: #202833;
+  padding-bottom: 15px;
+}
+
 .leafMe {
   font-weight: bolder;
   font-size: 110px;

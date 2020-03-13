@@ -19,7 +19,21 @@ export default () => (
       </div>
     </div>
 
-    <div style={{height: 120}}></div> {/*just for extra spacing after banner*/}
+    <div style={{height: 100}}></div> {/*just for extra spacing after banner*/}
+
+    <div className={indexStyles.video}>
+      <div className={indexStyles.titleText}>Check out our project here!</div>
+      <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube-nocookie.com/embed/3CllZJxUAPc" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <div style={{height: 100}}></div> {/*more extra spacing*/}
 
     <RightFeature 
       title="Take care of your plants, wherever you are"
